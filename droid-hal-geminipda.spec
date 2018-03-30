@@ -21,4 +21,6 @@
 /verity_key\
 %{nil}
 
+%define makefstab_skip_entries /system
+
 %include rpm/dhd/droid-hal-device.inc
